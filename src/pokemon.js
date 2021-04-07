@@ -2,6 +2,11 @@ const express = require('express');
 const router = express.Router();
 const { v4: uuid } = require('uuid');
 
+// replace this string with your full name
+const name = "Your name here!"
+
+console.log(`My name is ${name}`)
+
 // use this list as your temporary database!
 // note that it will reset every time you restart your server
 const myPokemon = [{

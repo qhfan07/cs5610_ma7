@@ -3,8 +3,6 @@ const pokemon = require('./src/pokemon.js');
 const app = express();
 const { v4: uuid } = require('uuid');
 
-console.log(uuid());
-
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
